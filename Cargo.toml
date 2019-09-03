@@ -1,0 +1,15 @@
+[package]
+name = "game-engine-dev-math"
+version = "0.1.0"
+authors = ["scott"]
+edition = "2018"
+
+[dependencies]
+
+[lib]
+name = "game_math"
+path = "src/lib.rs"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
